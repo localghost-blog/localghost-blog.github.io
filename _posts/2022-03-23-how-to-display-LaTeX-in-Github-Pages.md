@@ -18,7 +18,7 @@ see [Auto-render Extension · KaTeX](https://katex.org/docs/autorender.html#usag
 
 
 
-For example, when using [mmistakes/minimal-mistakes: Jekyll theme for building a personal site, blog, project documentation, or portfolio. (github.com)](https://github.com/mmistakes/minimal-mistakes), you may include it into `_includes/head/custom.html`.
+For example, when using [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), include it in `_includes/head/custom.html`.
 
 ## Step 2: Configuration (optional)
 
