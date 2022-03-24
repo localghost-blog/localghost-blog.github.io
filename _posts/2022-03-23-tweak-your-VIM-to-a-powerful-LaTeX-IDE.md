@@ -39,11 +39,15 @@ call plug#end()
 
 in the file `~/.vimrc`, and `:PlugInstall` in vim to install plugins.
 
-You can create some useful snippets as in [How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/) written by Gilles Castel. The *mathematical context* is a must-have. If you want to store your snippets in the folder you like, says `path-to-the-folder`, you should new a folder in `path-to-the-folder` named `Ultisnips`, put your snippets in `Ultisnips`, then add the following in your `.vimrc`:
+You can create some useful snippets as in [How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/) written by Gilles Castel. The *mathematical context* is a must-have. 
+
+If you want to store your snippets in the folder you like, says `path-to-the-folder`, add it in your `.vimrc`:
 
 ```vim
 set rtp+=path-to-the-folder
 ```
+
+Then put your snippets in `path-to-the-folder/Ultisnips`.
 
 ## Frequently Faced Issues
 
