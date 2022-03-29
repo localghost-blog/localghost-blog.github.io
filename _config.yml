@@ -37,10 +37,31 @@ search_full_content: true
 
 plugins:
   - jekyll-feed 
-  - jekyll-include-cache 
+  - jekyll-include-cache
+  - jekyll-archives
+  - jekyll-tagslist
 
 include:
   - _pages
+
+breadcrumbs: true  # disabled by default
+
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 defaults:
   # _posts
@@ -58,6 +79,7 @@ defaults:
       show_date: true
       toc: true
       toc_label: "Table of Contents"
+      permalink: /:categories/:title/
   # _pages
   - scope:
       path: "_pages"
