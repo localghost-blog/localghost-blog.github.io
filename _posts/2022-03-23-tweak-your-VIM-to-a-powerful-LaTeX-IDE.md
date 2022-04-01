@@ -2,7 +2,7 @@
 author: Local Ghost
 title: Tweak Your VIM to a Powerful $\LaTeX$ IDE
 tags: LaTeX VIM
-categories: LaTeX VIM
+categories: LaTeX
 ---
 
 ## Prerequisites

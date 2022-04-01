@@ -2,7 +2,7 @@
 author: Local Ghost
 title: How to Display $\LaTeX$ in GitHub Pages using $\KaTeX$
 tags: LaTeX GitHub-Pages
-categories: LaTeX GitHub-Pages
+categories: LaTeX
 ---
 
 ## Step 1: Render $\KaTeX$
